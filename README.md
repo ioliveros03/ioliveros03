@@ -2,3 +2,5 @@
 
 > Nom i Cognoms
 **Ivan Oliveros Gómez**
+
+Hola, em dic Ivan Oliveros, tinc 18 anys i soc de Móra d'Ebre. Vinc a aquest cicle després de fer la ESO i un grau mitjà d'informàtica (SMIX) a Móra.
