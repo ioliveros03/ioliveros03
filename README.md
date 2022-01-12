@@ -1,4 +1,4 @@
-### Ivan Oliveros - MP10
+### Ivan Oliveros
 
 > Nom i Cognoms
 **Ivan Oliveros Gómez**
