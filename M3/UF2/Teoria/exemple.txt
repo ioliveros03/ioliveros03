@@ -1,1 +1,33 @@
-a
+𝙀𝙓𝙀𝙈𝙋𝙇𝙀 𝘾𝙍𝙀𝘼𝘾𝙄𝙊 + 𝘾𝙍𝙄𝘿𝘼 𝘿𝙀 𝙈𝙀𝙏𝙊𝘿𝙀𝙎
+
+package com.iesebre;
+
+class Alumne {
+    String nom;
+    int edat;
+    String cognom;
+
+    void saludar(){
+        System.out.println("Hola, em dic " + nom);
+    }
+    void edat(){
+        System.out.println("Tinc " + edat + " anys");
+    }
+    void cognom(){
+        System.out.println("El meu cognom és " + cognom);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Alumne alumne = new Alumne();
+
+        alumne.nom="Ivan";
+        alumne.edat=18;
+        alumne.cognom="Oliveros";
+
+        alumne.saludar();
+        alumne.edat();
+        alumne.cognom();
+        }
+    }
