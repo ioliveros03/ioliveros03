@@ -1,4 +1,4 @@
-*EXEMPLE CREACIÓ + CRIDA DE MÈTODES*
+𝙀𝙓𝙀𝙈𝙋𝙇𝙀 𝘾𝙍𝙀𝘼𝘾𝙄𝙊 + 𝘾𝙍𝙄𝘿𝘼 𝘿𝙀 𝙈𝙀𝙏𝙊𝘿𝙀𝙎
 
 package com.iesebre;
 
@@ -33,7 +33,7 @@ public class Main {
     }
 
 
-*EXEMPLE MÈTODES + BUCLES + ARRAYS*
+𝙀𝙓𝙀𝙈𝙋𝙇𝙀 𝙈𝙀𝙏𝙊𝘿𝙀𝙎 + 𝘽𝙐𝘾𝙇𝙀𝙎 + 𝘼𝙍𝙍𝘼𝙔𝙎
 
 package com.iesebre;
 import java.util.Scanner;
