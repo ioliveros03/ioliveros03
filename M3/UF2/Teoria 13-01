@@ -1,0 +1,26 @@
+package com.iesebre;
+import java.util.Scanner;
+
+class Alumne {
+    String nom;
+
+    void Alumne(){}
+    void saludar(){
+        System.out.println("Hola, em dic " + nom);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Alumne alumne[] = new Alumne[10];
+
+        for (int i=0; i<10; i++){
+            alumne[i] = new Alumne();
+            System.out.print("Nom alumne " +i+ ": ");
+            alumne[i].nom=sc.nextLine();
+            alumne[i].saludar();
+        }
+        alumne[5].saludar();
+    }
+}
