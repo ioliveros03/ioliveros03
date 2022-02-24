@@ -1,7 +1,7 @@
 ### Ivan Oliveros
 
-> Name =
-**Ivan Oliveros Gómez**
+> **Name** =
+Ivan Oliveros Gómez
 
 > Contact =
 **ivanoliveros024@gmail.com**
