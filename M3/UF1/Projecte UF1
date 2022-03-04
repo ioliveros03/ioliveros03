@@ -1,0 +1,124 @@
+package com.iesebre;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args){
+        class Animal {
+            void Animal() {
+            }
+            boolean talking() {
+                Boolean[] Array = new Boolean[8];
+                for (int i = 0; i < Array.length; i++) {
+                    Array[i] = false;
+                }
+
+                boolean finish = false;
+                Scanner sc = new Scanner(System.in);
+                boolean finishA = false;
+
+                char contadorOno = 0;
+                char caracter = 0;
+                char animal = 0;
+                String nom = "";
+                char joc = 0;
+
+                System.out.println("Qüestionari:");
+                System.out.println("1. Quin tipus d’animal ets?");
+                System.out.println("2. A que t’agrada jugar?");
+                System.out.println("3. Quin és el teu caràcter favorit?");
+                System.out.println("4. Sabries llistar tots els caràcters amb valor Unicode parell i menors o iguals a Z resultants\n" +
+                        "de la suma, entre el valor Unicode del primer i segon caràcter, on el valor Unicode del\n" +
+                        "primer creixerà fins al segon, el segon decreixerà fins primer?");
+                System.out.println("5. Juguem a fer onomatopeies?");
+                System.out.println("6. Posa-li un nom:");
+                System.out.println("7. Pots recordar la nostra conversa?");
+                System.out.println("8. Sortida de l’aplicació.");
+
+                do {
+                    System.out.println("Tria una opció:");
+
+                    Scanner sc2 = new Scanner(System.in);
+
+                    switch (sc.nextLine()) {
+                        case "1":
+                            if (Array[0] != false) {
+                                System.out.println("Has de seguir les opcions en ordre i sense repetir. Torna-ho a intentar!!");
+                                break;
+                            }
+                            // EXERCICI 1 (9): Quin tipus d’animal ets?
+                            Scanner scEx9 = new Scanner(System.in);
+
+                            animal = scEx9.next().charAt(0);
+                            int difG = 'G' - animal;
+                            int difS = 'S' - animal;
+
+                            if (difG >= -3 || animal <= 'G')
+                                System.out.println("Gos");
+                            else if (difS <= -3 || animal >= 'S')
+                                System.out.println("Serp");
+                            else
+                                System.out.println("Mono");
+
+                            Array[0] = true;
+                            break;
+
+                        case "2":
+                            if (Array[0] != false) {
+                                System.out.println("Has de seguir les opcions en ordre i sense repetir. Torna-ho a intentar!!");
+                                break;
+                            }
+                            // EXERCICI 2 (10): A que t’agrada jugar?
+
+                            Scanner scEx10 = new Scanner(System.in);
+                            joc = scEx10.next().charAt(0);
+
+                            if (joc == 'A') {
+                                System.out.println("Pilla-pilla");
+
+                            } else if (joc == 'B') {
+                                System.out.println("Pilota");
+
+                            } else if (joc == 'C') {
+                                System.out.println("Saltar");
+
+                            } else if (joc == 'D') {
+                                System.out.println("Circuit");
+
+                            } else if (joc == 'E') {
+                                System.out.println("Correr");
+
+                            } else if (joc == 'F') {
+                                System.out.println("Dinamica");
+
+                            } else if (joc == 'G') {
+                                System.out.println("Vols");
+
+                            } else if (joc == 'H') {
+                                System.out.println("Amagar");
+
+                            } else if (joc == 'I') {
+                                System.out.println("Cercar");
+
+                            } else if (joc == 'J') {
+                                System.out.println("Estirar");
+
+                            } else {
+                                System.out.println("No es un joc");
+                            }
+                            Array[1] = true;
+                            break;
+
+                        case "3":
+                            if (Array[0] != false) {
+                                System.out.println("Has de seguir les opcions en ordre i sense repetir. Torna-ho a intentar!!");
+                                break;
+                            }
+                            // EXERCICI 3 (11): Quin és el teu caràcter favorit?
+                            Array[2] = true;
+                            break;
+                    }}
+                while (!finishA);
+                return true;
+            }}
+    }}
+
