@@ -1,0 +1,139 @@
+/*Estil div general que ho conté tot*/
+#central {
+    font-family: 'Garamond', Times, serif;
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+/*Estil del nav*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    border: 20px solid rgb(41, 40, 40);
+}
+
+/*Estil dels títols*/
+h1 {
+    margin-top: 80px;
+}
+h1, h2 {
+    color: #008080;
+}
+
+/*Estil del contingut del nav*/
+#fixed-header {
+    margin-left: 385px;
+}
+
+.un, .dos, .tres {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px;
+    
+}
+
+/*Estil del contingut del nav quan passes cursor per damunt*/
+.un:hover, .dos:hover, .tres:hover {
+    color: rgb(211, 115, 5);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*Estil del div on estàn els autors*/
+#autors {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: gray;
+    text-transform: uppercase;
+    background-color: rgb(221, 216, 216);
+}
+
+/*Estil de la foto que hi ha al div dels autors*/
+#imautor {
+    padding-left: 500px;
+}
+
+/*Estil de les paraules que hi ha en taronja*/
+.tar {
+    color: rgb(211, 115, 5);
+}
+
+/*Estil de les citacions*/
+q {
+    font-weight: bold;
+}
+
+/*Estil per a canviar el punt de les llistes*/
+li {
+    list-style: circle;
+}
+
+/*Estil general de les línies del article*/
+hr {
+    border: 1.92px solid black;
+}
+
+/*Estil de la posició de les línies*/
+.ralla {
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+/*Estil del text que hi ha entre les línies*/
+.borde {
+    margin-left: 30px;
+    margin-right: 60px;
+}
+
+/*Estil de la foto*/
+#tablet {
+    width: 350px;
+    height: 220px;
+}
+
+/*Estil de les fotos i el video*/
+#persones, #youtube, #tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 330px;
+}
+
+/*Estil del text descriptiu que hi ha baix del video*/
+#video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    color: gray;
+    font-size: 14px;
+}
+
+/*Estil del link del final de l'article*/
+.linkfin {
+    color: rgb(211, 115, 5);
+    text-decoration: none;
+}
+
+/*Estil del peu de pàgina*/
+footer {
+    width: 100%;
+    color: white;
+    background-color: teal;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/*Estil de la foto del peu de pàgina*/
+#uoc {
+    align-content: center
+}
