@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="utf-8" />
+    <title>PT2_EX1</title>
+    <style>
+        @import url("A2ex1.css");
+    </style>
+</head>
 
+<body>
+
+<h1> ASIXDAM1 - MP03 - PROGRAMACIÓ BÀSICA </h1>
+<h2> UF1. PROGRAMACIÓ ESTRUCTURADA, INTRODUCCIÓ A LA PROGRAMACIÓ EN JAVA </h2>
+
+<p class="text"> En aquesta pàgina web, volem ensenyar-vos els primers passos en el món de la programació i
+    ajudar-vos a fer el primer pas per comprendre les infinites possibilitats que ofereix la programació </p>
+
+<h3> IF/ELSE IF </h3>
+
+<p class="text"> Primer treballarem amb la funció if/else if, que ofereix la possibilitat de treballar amb les
+    condicions.
+    <br><br>
+    Dins la programació, en el següent exemple, treballarem amb la majoria d'edat per veure si l'usuari es pot
+    treure el carnet de conduir: </p>
+
+<pre> <code>
+        public static void main(String[] args) {
+
+        Scanner teclat = new Scanner(System.in);
+
+        int edat = teclat.nextInt();
+
+            <strong>if</strong> (edat18) {
+                System.out.println("Es pot treure el carnet");
+            } <strong>else if</strong> (edat==18) {
+                System.out.println("Pot començar a treure's el carnet");
+            } <strong>else if</strong> (edat>0 && edat<18) {
+                System.out.println("No es pot treure el carnet");
+            } <strong>else</strong> {
+                System.out.println("No pot tenir edat negativa, torna a provar:");
+            }
+        }
+        </code> </pre>
+
+<p class="text"> Explicació del codi:</p>
+<p class="explicacio_codi"> Primer li demanem al participant que ens fiqui un número, i llavors dins del programa, treballarem amb les condicions, i cada una d'aquestes opcions mostrarà un text per pantalla, primerament treballarà amb l'if.
+    <br>
+    Si aquesta condició es compleix, mostra el text que li hem guardat. Si no es compleix passa al següent i fa el mateix. </p>
+
+<p class="explicacio_codi"> En la primera condició mira si ja és major d'edat comprovant si té més de 18 anys.
+    <br>
+    En la següent condició comprova si té 18 anys, en l'altra opció es veu que no té l'edat per treure's el carnet.
+    <br>
+    Finalment en cas què algú posi una edat negativa també ho comprova. </p>
+<p id="conclusio"> Amb aquest programa podem veure un petit exemple de la gran quantitat de possibilitats que ens pot oferir l'IF/ELSE IF. Esperem que aquesta activitat us ajudi a millorar en el món de la programació. </p>
+
+<footer>
+    <p> Integrants del grup: Joan Bayo, Ivan Oliveros, Betlem Espuny i Rafel Margalef </p>
+</footer>
+
+</body>
+
+</html>
